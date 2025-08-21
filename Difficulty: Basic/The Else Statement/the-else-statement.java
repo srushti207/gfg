@@ -1,15 +1,13 @@
-import java.util.*;
+// User function Template for Java
+class Solution {
+    public static void utility(int number) {
+        // Write your if-else statement below
 
-public class Solution {
-    public static void main(String args[]) {
-        // Your Code Here
-        Scanner sc = new Scanner(System.in);
-        int a = sc.nextInt();
-        if(a<=100){
-            System.out.print("Number");
-        }else if(a>100){
-            System.out.print("Big");
+        // Write your if-else statement above
+        if(number<=100){
+            System.out.println("Number");
+        }else if(number>100){
+            System.out.println("Big");
         }
-        System.out.println("");
     }
 }
