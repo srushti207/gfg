@@ -1,16 +1,22 @@
-// User function Template for Java
-class Solution {
+//Back-end complete function Template for Java
+import java.util.*;
 
-    public static int find_greatest_number(int a, int b, int c) {
-        // Write your code here..
+public class Solution {
+    public static void main(String args[]) {
+        // Your code here
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int c = sc.nextInt();
+        
         if(a>=b && a>=c){
-            return a;
+            System.out.print(a);
         }
         else if(b>=a && b>=c){
-            return b;
+            System.out.print(b);
         }
         else{
-            return c;
+            System.out.print(c);
         }
     }
 }
