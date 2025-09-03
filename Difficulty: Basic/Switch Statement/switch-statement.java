@@ -1,29 +1,31 @@
-// User function Template for Java
-class Solution {
-    public static String utility(int number) {
+//Back-end complete function Template for Java
+import java.util.*;
 
-        // write your code here
-        switch(number) {
-            case 1:
-                return "One";
-            case 2:
-                return "Two";
-            case 3:
-                return "Three";
-            case 4:
-                return "Four";
-            case 5:
-                return "Five";
-            case 6:
-                return "Six";
-            case 7:
-                return "Seven";
-            case 8:
-                return "Eight";
-            case 9:
-                return "Nine";
-            default:
-                return "Unknown";
+public class Solution {
+    public static void main(String args[]) {
+        // Your Code Here
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        if(n==1){
+            System.out.print("One");
+        }else if(n==2){
+            System.out.print("Two");
+        }else if(n==3){
+            System.out.print("Three");
+        }else if(n==4){
+            System.out.print("Four");
+        }else if(n==5){
+            System.out.print("Five");
+        }else if(n==6){
+            System.out.print("Six");
+        }else if(n==7){
+            System.out.print("Seven");
+        }else if(n==8){
+            System.out.print("Eight");
+        }else if(n==9){
+            System.out.print("Nine");
+        }else{
+            System.out.print("Unknown");
         }
     }
 }
