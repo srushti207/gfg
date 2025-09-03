@@ -1,10 +1,12 @@
+// User function Template for Java
 class Solution {
-    public int sumOfFirstN(int n) {
+    public int sumOfNumbers(int n) {
         // code here
-        int sum = 0;
-        for(int i=1;i<=n;i++){
-            sum += i;
+        int sum1 = 0;
+        while(n>0){
+            sum1 += n;
+            n-=1;
         }
-        return sum;
+        return sum1;
     }
 }
